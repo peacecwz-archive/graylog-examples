@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{661DC868-060A-4D71-923A-9B5EF140923C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraylogNet", "src\GraylogNet\GraylogNet.csproj", "{18F3572A-0477-4F56-986E-5EF3EF546A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraylogNetCore", "src\GraylogNetCore\GraylogNetCore.csproj", "{D25EF35C-6C85-411C-8208-4610F2D425BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18F3572A-0477-4F56-986E-5EF3EF546A8A} = {661DC868-060A-4D71-923A-9B5EF140923C}
+		{D25EF35C-6C85-411C-8208-4610F2D425BF} = {661DC868-060A-4D71-923A-9B5EF140923C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18F3572A-0477-4F56-986E-5EF3EF546A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F3572A-0477-4F56-986E-5EF3EF546A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F3572A-0477-4F56-986E-5EF3EF546A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F3572A-0477-4F56-986E-5EF3EF546A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25EF35C-6C85-411C-8208-4610F2D425BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25EF35C-6C85-411C-8208-4610F2D425BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25EF35C-6C85-411C-8208-4610F2D425BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25EF35C-6C85-411C-8208-4610F2D425BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

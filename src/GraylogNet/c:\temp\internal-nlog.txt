@@ -1,0 +1,424 @@
+2019-02-11 02:40:55.5817 Info Message Template Auto Format enabled
+2019-02-11 02:40:55.5908 Info Loading assembly: Pompa
+2019-02-11 02:40:55.6000 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:40:55.6022 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:40:55.6049 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:40:55.6085 Info Found 0 configuration items
+2019-02-11 02:40:55.6155 Info Configuration initialized.
+2019-02-11 02:40:55.6166 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:45:37.5095 Info Message Template Auto Format enabled
+2019-02-11 02:45:37.5197 Info Loading assembly: Pompa
+2019-02-11 02:45:37.5248 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:45:37.5271 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:45:37.5300 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:45:37.5338 Info Found 0 configuration items
+2019-02-11 02:45:37.5401 Info Configuration initialized.
+2019-02-11 02:45:37.5416 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:46:56.4944 Info Message Template Auto Format enabled
+2019-02-11 02:46:56.5080 Info Loading assembly: Pompa
+2019-02-11 02:46:56.5138 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:46:56.5159 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:46:56.5184 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:46:56.5215 Info Found 0 configuration items
+2019-02-11 02:46:56.5278 Info Configuration initialized.
+2019-02-11 02:46:56.5289 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:47:47.4229 Info Message Template Auto Format enabled
+2019-02-11 02:47:47.4369 Info Loading assembly: Pompa
+2019-02-11 02:47:47.4427 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:47:47.4458 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:47:47.4483 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:47:47.4523 Info Found 0 configuration items
+2019-02-11 02:47:47.4587 Info Configuration initialized.
+2019-02-11 02:47:47.4599 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:49:29.8703 Info Message Template Auto Format enabled
+2019-02-11 02:49:29.8788 Info Loading assembly: Pompa
+2019-02-11 02:49:29.8830 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:49:29.8849 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:49:29.8884 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:49:29.8918 Info Found 0 configuration items
+2019-02-11 02:49:29.8974 Info Configuration initialized.
+2019-02-11 02:49:29.8983 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:52:00.1209 Info Message Template Auto Format enabled
+2019-02-11 02:52:00.1347 Info Loading assembly: Pompa
+2019-02-11 02:52:00.1404 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:52:00.1431 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00033] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:801 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System/AppDomain.cs:782 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00000] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/corlib/System.Reflection/Assembly.cs:595 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:52:00.1465 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:52:00.1503 Info Found 0 configuration items
+2019-02-11 02:52:00.1573 Info Configuration initialized.
+2019-02-11 02:52:00.1586 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:52:04.4387 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:50.4835 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:52.7358 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:57.3316 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:57.5352 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:57.7247 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.2296 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.3450 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.4382 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.5151 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.6085 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.6806 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.7616 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.8463 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:58.9210 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:59.0457 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:59.2465 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:59.4554 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:59.6514 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:52:59.8263 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:53:00.0275 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:07.4194 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:07.6527 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:07.8245 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:08.0059 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:08.1966 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:08.3886 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:08.5983 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:08.8153 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:08.9990 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:09.5015 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:09.6135 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:09.7160 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:09.7788 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:09.8864 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:09.9429 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:10.1180 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:10.2015 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:10.3743 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:10.5419 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:13.8482 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:14.0295 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:14.2355 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:14.4167 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:14.6092 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:14.7974 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:15.0090 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:15.2783 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:15.5643 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:15.8476 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:16.0689 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:16.3248 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:16.5896 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:16.8613 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:54:17.4061 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:58:27.9014 Info Message Template Auto Format enabled
+2019-02-11 02:58:27.9108 Info Loading assembly: Pompa
+2019-02-11 02:58:27.9180 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:58:27.9201 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:58:27.9230 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:58:27.9268 Info Found 0 configuration items
+2019-02-11 02:58:27.9338 Info Configuration initialized.
+2019-02-11 02:58:27.9351 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:58:28.3717 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:58:33.0237 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:58:33.2322 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 02:59:05.6481 Info Message Template Auto Format enabled
+2019-02-11 02:59:05.6574 Info Loading assembly: Pompa
+2019-02-11 02:59:05.6626 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 02:59:05.6645 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:59:05.6673 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 02:59:05.6704 Info Found 0 configuration items
+2019-02-11 02:59:05.6759 Info Configuration initialized.
+2019-02-11 02:59:05.6769 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 02:59:06.0387 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:43.6089 Info Message Template Auto Format enabled
+2019-02-11 03:02:43.6162 Info Loading assembly: Pompa
+2019-02-11 03:02:43.6204 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+2019-02-11 03:02:43.6220 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 03:02:43.6245 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String name) [0x00058] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTargetsElement (NLog.Config.NLogXmlElement targetsElement) [0x001c2] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.NLogXmlElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00335] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00027] in <732cdea254464dedb98a2bac5ba4b42c>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 03:02:43.6274 Info Found 0 configuration items
+2019-02-11 03:02:43.6331 Info Configuration initialized.
+2019-02-11 03:02:43.6340 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.0.7357. Product version: 4.5.0.
+2019-02-11 03:02:44.0209 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:51.4535 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:51.6495 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:51.8660 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:52.0732 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:52.2941 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:52.4690 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:52.6611 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:52.8282 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:02:53.0154 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:03:01.7613 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:03:02.2573 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:23.9126 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:24.2482 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:24.4924 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:24.6763 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:24.8563 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:25.0359 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:25.2452 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:25.4406 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:08:25.6160 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:42.5558 Info Message Template Auto Format enabled
+2019-02-11 03:25:42.5623 Info Loading assembly: Pompa
+2019-02-11 03:25:42.5668 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <bb53af710831424cafe56d1b554dd5ab>:0 
+2019-02-11 03:25:42.5685 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <bb53af710831424cafe56d1b554dd5ab>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 03:25:42.5721 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String itemName) [0x00058] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseTargetsElement (NLog.Config.ILoggingConfigurationElement targetsElement) [0x00256] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseNLogSection (NLog.Config.ILoggingConfigurationElement configSection) [0x00076] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogSection (NLog.Config.ILoggingConfigurationElement configSection) [0x00047] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.LoadConfig (NLog.Config.ILoggingConfigurationElement nlogConfig, System.String basePath) [0x00129] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.ILoggingConfigurationElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00055] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00037] in <bb53af710831424cafe56d1b554dd5ab>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 03:25:42.5799 Info Found 0 configuration items
+2019-02-11 03:25:42.5825 Info Configuration initialized.
+2019-02-11 03:25:42.5834 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.0.9068. Product version: 4.6.0-rc1.
+2019-02-11 03:25:42.9217 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:54.6433 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:55.0900 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:55.3480 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:55.5984 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:55.7944 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:59.5349 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:59.7910 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:25:59.9961 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:00.4963 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:00.6463 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:00.7052 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:00.7791 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:00.8828 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:00.9561 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.0265 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.1257 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.2050 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.3143 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.3598 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.4931 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.5277 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.6236 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.7022 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.7876 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.8785 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:01.9473 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:02.1373 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:02.3716 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:26:02.5552 Error GetLogger / GetCurrentClassLogger got 'GraylogNet.Controllers.HomeController' as loggerType which doesn't inherit from Logger
+2019-02-11 03:27:36.7264 Info Message Template Auto Format enabled
+2019-02-11 03:27:36.7332 Info Loading assembly: Pompa
+2019-02-11 03:27:36.7380 Error Error loading extensions. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+File name: 'Pompa'
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <bb53af710831424cafe56d1b554dd5ab>:0 
+2019-02-11 03:27:36.7401 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: Pompa ---> System.IO.FileNotFoundException: Could not load file or assembly 'Pompa' or one of its dependencies
+  at System.AppDomain.Load (System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly) [0x00016] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at System.AppDomain.Load (System.String assemblyString) [0x00000] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load(string)
+  at System.Reflection.Assembly.Load (System.String assemblyString) [0x00005] in <98fac219bd4e453693d76fda7bd96ab0>:0 
+  at NLog.Internal.AssemblyHelpers.LoadFromName (System.String assemblyName) [0x0000b] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly (System.String assemblyName, System.String prefix) [0x00000] in <bb53af710831424cafe56d1b554dd5ab>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 03:27:36.7445 Error Parsing configuration from /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/peacecwz/Net/Samples/GraylogExample/src/GraylogNet/Web.config.  ---> System.ArgumentException: Target cannot be found: 'GelfHttp'
+  at NLog.Config.Factory`2[TBaseType,TAttributeType].CreateInstance (System.String itemName) [0x00058] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseTargetsElement (NLog.Config.ILoggingConfigurationElement targetsElement) [0x00256] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.ParseNLogSection (NLog.Config.ILoggingConfigurationElement configSection) [0x00076] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogSection (NLog.Config.ILoggingConfigurationElement configSection) [0x00047] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.LoggingConfigurationParser.LoadConfig (NLog.Config.ILoggingConfigurationElement nlogConfig, System.String basePath) [0x00129] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseNLogElement (NLog.Config.ILoggingConfigurationElement nlogElement, System.String filePath, System.Boolean autoReloadDefault) [0x00055] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.ParseTopLevel (NLog.Config.NLogXmlElement content, System.String filePath, System.Boolean autoReloadDefault) [0x0004d] in <bb53af710831424cafe56d1b554dd5ab>:0 
+  at NLog.Config.XmlLoggingConfiguration.Initialize (System.Xml.XmlReader reader, System.String fileName, System.Boolean ignoreErrors) [0x00037] in <bb53af710831424cafe56d1b554dd5ab>:0 
+   --- End of inner exception stack trace ---
+2019-02-11 03:27:36.7535 Info Found 0 configuration items
+2019-02-11 03:27:36.7571 Info Configuration initialized.
+2019-02-11 03:27:36.7580 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.0.9068. Product version: 4.6.0-rc1.
